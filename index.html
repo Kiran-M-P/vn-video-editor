@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="simple, but a powerful video editor.">
+
+  <title>VN Video Editor</title>
+
+  <!-- bootstrap 4.0.0 scripts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- css stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/16915d8809.js" crossorigin="anonymous"></script>
+
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+
+  <!-- AOS library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+  <section id="hero-section">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <a href="#" class="navbar-brand"><img class="logo" src="images/favicon-l.png" alt="logo"></a>
+      <button class="navbar-toggler left:auto" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon ml-auto"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-auto" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ml-auto"><a class="nav-link" href="#footer">contact</a></li>
+          <li class="nav-item ml-auto"><a class="nav-link" href="#features">features</a></li>
+          <li class="nav-item ml-auto"><a class="nav-link" href="#download-section">rating</a></li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+
+    <!-- Title -->
+    <div class="flex-container">
+      <div class="flex-col wth50">
+        <div class="txt-align">
+          <h1 class="hero-tittle">simple, but a powerful video editor.</h1>
+          <a href="#download-section"><button type="button" class="btn btn-dark custom-btn">Download</button></a>
+        </div>
+      </div>
+      <div class="flex-col wth50">
+        <img class="frame-image" src="images/home-frame.png" alt="iphone,macbook-mockup">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="multi-track">
+      <div class="flex-container multi-track-bg">
+        <div class="flex-col wth40">
+          <img class="feature-img" data-aos="fade-right" data-aos-offset="500" data-aos-duration="500" src="images/multi-track-new.png" alt="">
+          <img class="feature-img2" src="images/multi-track-new.png" alt="">
+        </div>
+
+        <div class="flex-col wth60">
+          <div class="txt-align">
+            <h2>Multi-track Editing</h2>
+            <p class="keypoints">full view / precise editing / efficient</p>
+            <p class="description">An extremely flexible, real‑time editing environment, so you can change settings during playback.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter">
+      <div class="flex-container filter-bg">
+        <div class="flex-col wth60">
+          <div class="txt-align">
+            <h2>Filters and Effects</h2>
+            <p class="keypoints">diversified transitions / dynamic zoom</p>
+            <p class="description">With our transitions and filters collection, there's truly no limit to what you can create.</p>
+          </div>
+        </div>
+
+        <div class="flex-col wth40">
+          <img class="feature-img" data-aos="fade-left" data-aos-offset="500" data-aos-duration="500" src="images/filters-new.png" alt="Fliter Effects">
+          <img class="feature-img2" src="images/filters-new.png" alt="Fliter Effects">
+        </div>
+      </div>
+    </div>
+
+    <div class="music">
+      <div class="flex-container music-bg">
+        <div class="flex-col wth40">
+          <img class="feature-img" data-aos="fade-right" data-aos-offset="500" data-aos-duration="500" src="images/music-new.png" alt="Music and Sound">
+          <img class="feature-img2" src="images/music-new.png" alt="Music and Sound">
+        </div>
+
+        <div class="flex-col wth60">
+          <div class="txt-align">
+            <h2>Music and Sound</h2>
+            <p class="keypoints">multi sound track & import methods</p>
+            <p class="description">Sync the visuals with music with music beats. Added multiple sound track editing & new import methods.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="keyframe">
+      <div class="flex-container keyframe-bg">
+        <div class="flex-col wth60">
+          <div class="txt-align">
+            <h2>Keyframe</h2>
+            <p class="keypoints">accurate / unlimited interesting effects</p>
+            <p class="description">With keyframes, you can manipulate animations, transitions exactly how you want, and so the possibilities are endless.</p>
+          </div>
+        </div>
+
+        <div class="flex-col wth40">
+          <img class="feature-img" data-aos="fade-left" data-aos-offset="500" data-aos-duration="500" src="images/keyframe-new.png" alt="keyframe">
+          <img class="feature-img2" src="images/keyframe-new.png" alt="keyframe">
+        </div>
+      </div>
+    </div>
+
+    <div class="curves">
+      <div class="flex-container curves-bg">
+        <div class="flex-col wth40">
+          <img class="feature-img" data-aos="fade-right" data-aos-offset="500" data-aos-duration="500" src="images/curves-new.png" alt="Curve Shifting">
+          <img class="feature-img2" src="images/curves-new.png" alt="Curve Shifting">
+        </div>
+
+        <div class="flex-col wth60">
+          <div class="txt-align">
+            <h2>Curve Shifting</h2>
+            <p class="keypoints">flexible speed adjustment / preset curves</p>
+            <p class="description">Make your videos more cinematic and interesting with flexible speed adjustment / preset curves.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tittles">
+      <div class="flex-container tittles-bg">
+        <div class="flex-col wth60">
+          <div class="txt-align">
+            <h2>Custom Tittles</h2>
+            <p class="keypoints">multi-track tittles / import fonts</p>
+            <p class="description">With multi-track titles and font imports, you can easily add captions, text, intro to videos.</p>
+          </div>
+        </div>
+
+        <div class="flex-col wth40">
+          <img class="feature-img" data-aos="fade-left" data-aos-offset="500" data-aos-duration="500" src="images/tittles-new.png" alt="">
+          <img class="feature-img2" src="images/tittles-new.png" alt="custom tittles">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Tutorials -->
+  <section id="tutorials">
+
+    <div class="flex-container tutorials-bg">
+      <div class="flex-col wth60">
+        <div class="videowrapper">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/3qDqx4805RY?version=3&loop=1&playlist=3qDqx4805RY" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div class="flex-col wth40">
+        <div class="txt-align">
+          <h2>Learn Easily</h2>
+          <p>We have 80+ interesting video editing tutorials on our youtube channel.</p>
+          <a href="https://www.youtube.com/channel/UCwVeTJvN3wqCecJcNE1cygQ" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-dark custom-btn"><i class="fab fa-youtube yt-logo"></i>Subscribe</button></a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Rating -->
+  <section id="download-section">
+
+    <div class="rating-container">
+
+      <div class="grid-container">
+
+        <div class="score-cell">
+          <h4>4.5</h4>
+        </div>
+
+        <div class="store-cell">
+          <h5>play store</h5>
+        </div>
+
+        <div class="stars-cell">
+          <div class="star-lg">
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fas fa-star-half-alt fa-lg"></i>
+          </div>
+          <div class="star-sm">
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fas fa-star-half-alt fa-xs"></i>
+          </div>
+        </div>
+
+        <div class="button-cell">
+          <a href="https://play.google.com/store/apps/details?id=com.frontrow.vlog" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-dark custom-btn"><i class="fab fa-google-play"></i>Download</button></a>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="grid-container">
+        <div class="score-cell">
+          <h4>4.7</h4>
+        </div>
+
+        <div class="store-cell">
+          <h5>app store</h5>
+        </div>
+
+        <div class="stars-cell">
+          <div class="star-lg">
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fas fa-star-half-alt fa-lg"></i>
+          </div>
+          <div class="star-sm">
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fas fa-star-half-alt fa-xs"></i>
+          </div>
+        </div>
+
+        <div class="button-cell">
+          <a href="https://apps.apple.com/app/id1343581380" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-dark custom-btn"><i class="fab fa-apple"></i>Download</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="score-cell">
+          <h4>4.6</h4>
+        </div>
+
+        <div class="store-cell">
+          <h5>mac store</h5>
+        </div>
+
+        <div class="stars-cell">
+          <div class="star-lg">
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+            <i class="fas fa-star-half-alt fa-lg"></i>
+          </div>
+          <div class="star-sm">
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs" aria-hidden="true"></i>
+            <i class="fas fa-star-half-alt fa-xs"></i>
+          </div>
+        </div>
+
+        <div class="button-cell">
+          <a href="https://apps.apple.com/us/app/vn/id1494451650" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-dark custom-btn"><i class="fab fa-apple"></i>Download</button></a>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h3 class="testimonial">"There are a few reliable video editing apps that have some impressive features for mobile, but none that are as functional, easy to use and most importantly, as FREE as VN."</h3>
+          <em>shiva kumar</em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="testimonial">"I have to say this is the most powerful editing software for mobile by a long shot, there’s no reason to not try it yourself and I applaud the developers for making this free for use."</h3>
+          <em>Sanjay</em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="testimonial">"I have been blown away at the ease and abilities of this app. As far as a phone editor goes this lets you do some really professional looking edits and the work flow is simple. ."</h3>
+          <em>Babu ram</em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="testimonial">"It's the best editing app,its user interface is very simple and easy to learn,that's the most amazing thing,and the editing on this app is like the professional editing softwares."</h3>
+          <em>Chirag Sanjay</em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="testimonial">"This is hands down the best video editor for Android, I've use this editor for fast and instant edits. And I would like to say that it's perfect."</h3>
+          <em>Arghyadeep Nayek</em>
+        </div>
+      </div>
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="contact-flex">
+      <a href="https://www.linkedin.com/in/kiran-m-p/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-lg contact-item "></i></a>
+      <a href="https://github.com/Kiran-M-P" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-lg contact-item"></i></a>
+      <a href="#"><i class="social-icon fas fa-envelope fa-lg contact-item"></i></a>
+    </div>
+    <p class="credits">Designed and Built by <a href="https://github.com/Kiran-M-P" target="_blank" rel="noopener noreferrer"><strong>Kiran M P</strong></a></p>
+  </footer>
+
+  <!-- AOS library -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
