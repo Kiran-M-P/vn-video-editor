@@ -797,7 +797,7 @@ a:hover {
   }
 }
 
-@media screen and (max-height: 576px) {
+@media screen and (max-height: 450px) {
   #hero-section {
     height: 100vw;
   }
